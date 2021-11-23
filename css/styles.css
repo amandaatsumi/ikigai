@@ -1,0 +1,137 @@
+body {
+  font-family: 'Lilita One', cursive;
+  text-align: center;
+  color: #2B4F60;
+}
+
+nav {
+  background-color: #2B4F60;
+  font-family: 'Ubuntu Mono', monospace;
+}
+a{
+  text-decoration: none;
+  color: #BDC7C9;
+}
+a:hover{
+  color:#845460;
+}
+.title {
+  background: #ead3cb;
+}
+
+.logo {
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.logo-top{
+  padding-top: 10%;
+}
+.top {
+  font-family: 'Ubuntu Mono-light', monospace;
+  padding: 0 15px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  size: 3rem;
+  line-height: 1.5;
+  color: #845460;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+.premium{
+  padding: 7%;
+}
+.link-button {
+  color: #BDC7C9;
+  font-size: 2rem;
+  margin: 10px;
+  padding: 0 3px;
+}
+
+h2{
+  font-size: 5rem;
+  padding: 5%;
+    color: #845460;
+}
+h3{
+  margin: 3% 0;
+}
+.sabores {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍦</text></svg>") 16 0, auto;
+  /*!emojicursor.app*/
+  margin: 1%;
+}
+
+.sabor {
+  padding: 5px;
+}
+
+.flavour{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border-style:none;
+}
+.flavour:hover{
+  border-style:solid;
+  border-color: #845460;
+}
+/* .flavour1{
+  background-image: url("images/sabor1.png");
+}
+.flavour2{
+  background-image: url("images/sabor2.png");
+}
+.flavour3{
+  background-image: url("images/sabor3.png");
+}
+.sabor4{
+  background-image: url("images/sabor4.png");
+}
+.sabor5{
+  background-image: url("images/sabor5.png");
+}
+.sabor6{
+  background-image: url("images/sabor6.png");
+}
+.sabor7{
+  background-image: url("images/sabor7.png");
+}
+.sabor8{
+  background-image: url("images/sabor8.png");
+} */
+
+
+.scoop3, .scoop5{
+  display:inline-table;
+  margin: 0 5% 0 10%;
+  justify-content: flex-end;
+}
+
+.precos {
+  background: #845460;
+  padding: 1%;
+  color: #2B4F60;
+}
+.price-number{
+  display: inline-block;
+}
+
+.kaka-photo{
+  text-align: center;
+  margin: 3%;
+  color: #2B4F60;
+}
+.kaka{
+  width: 60%;
+}
+
+.description{
+  padding: 10%;
+  size: 3rem;
+}
