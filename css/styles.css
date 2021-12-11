@@ -50,7 +50,7 @@ h1 {
 }
 
  @media (max-width : 768px){
-a, li, p  { font-size: 2rem;
+a, li, p  { color: red;
 }
 .navigate{
   padding: 25px;
