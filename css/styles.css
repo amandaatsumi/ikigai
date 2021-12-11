@@ -50,12 +50,15 @@ h1 {
 }
 
  @media (max-width : 768px){
-a, li, p  { color: red;
-}
 .navigate{
   padding: 25px;
+  font-size: 2rem;
+}
+.ice-cream{
+  font-size: 2rem;
 }
 }
+
 .navigate{
   position: fixed;
   top: 0;
