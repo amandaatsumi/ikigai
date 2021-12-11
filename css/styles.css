@@ -50,10 +50,11 @@ h1 {
 }
 
  @media (max-width : 768px){
-a, li, p  { font-size: 150%; }
+a, li, p  { font-size: 150%;
 }
-.container-fluid {
-  padding: 0 10%;
+.navigate{
+  padding: 25px;
+}
 }
 .navigate{
   position: fixed;
