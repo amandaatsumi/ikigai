@@ -7,16 +7,23 @@ body {
 nav {
   background-color: #2B4F60;
   font-family: 'Ubuntu Mono', monospace;
+  font-weight: bolder;
+
+
 }
-a{
+
+a {
   text-decoration: none;
   color: #BDC7C9;
 }
-a:hover{
-  color:#845460;
+
+a:hover {
+  color: #845460;
 }
+
 .title {
   background: #ead3cb;
+
 }
 
 .logo {
@@ -24,9 +31,11 @@ a:hover{
   padding-bottom: 10%;
 }
 
-.logo-top{
-  padding-top: 10%;
+.logo-top {
+  padding: 15% 0;
+
 }
+
 .top {
   font-family: 'Ubuntu Mono-light', monospace;
   padding: 0 15px;
@@ -37,30 +46,47 @@ h1 {
   size: 3rem;
   line-height: 1.5;
   color: #845460;
+  letter-spacing: 10px;
 }
 
 .container-fluid {
   padding: 0 10%;
 }
+.navigate{
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+}
 
-.premium{
+.premium {
   padding: 7%;
 }
+
 .link-button {
-  color: #BDC7C9;
+  color: #845460;
   font-size: 2rem;
   margin: 10px;
   padding: 0 3px;
+  border-radius: 40%;
 }
 
-h2{
+h2 {
   font-size: 5rem;
   padding: 5%;
-    color: #845460;
+  color: #845460
 }
-h3{
-  margin: 3% 0;
+
+
+.ice-cream {
+  padding-top: 5px;
+  size: 3rem;
 }
+
+.fas {
+  color: #ead3cb;
+}
+
 .sabores {
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍦</text></svg>") 16 0, auto;
   /*!emojicursor.app*/
@@ -71,16 +97,18 @@ h3{
   padding: 5px;
 }
 
-.flavour{
+.flavour {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  border-style:none;
+  border-style: none;
 }
-.flavour:hover{
-  border-style:solid;
+
+.flavour:hover {
+  border-style: solid;
   border-color: #845460;
 }
+
 /* .flavour1{
   background-image: url("images/sabor1.png");
 }
@@ -107,31 +135,49 @@ h3{
 } */
 
 
-.scoop3, .scoop5{
-  display:inline-table;
+.scoop3,
+.scoop5 {
+  display: inline-table;
   margin: 0 5% 0 10%;
   justify-content: flex-end;
 }
 
 .precos {
-  background: #845460;
-  padding: 1%;
+  background-color: #ead3cb;
+  padding: 11% 1%;
   color: #2B4F60;
 }
-.price-number{
+
+.price-number {
   display: inline-block;
 }
 
-.kaka-photo{
+.historia {
+  margin: 3%;
+}
+
+.kaka-photo {
   text-align: center;
   margin: 3%;
   color: #2B4F60;
 }
-.kaka{
+
+.kaka {
   width: 60%;
+  border-radius: 100%;
 }
 
-.description{
+.description {
   padding: 10%;
   size: 3rem;
+  background-color: #BDC7C9;
+  margin: 40px 50px;
+
+}
+
+footer {
+  background-color: #845460;
+  color: white;
+  margin-bottom: 0;
+
 }
